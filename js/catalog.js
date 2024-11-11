@@ -2,7 +2,7 @@ const form = document.getElementById("add-form");
 const mockdata = [
   {
     id: 1,
-    img: "../imgs/menu/naturais.png",
+    img: "../public/imgs/menu/naturais.png",
     doador: "Estevao Boaventura",
     validade: "12/12/2024",
     produto: "Pizza",
@@ -12,7 +12,7 @@ const mockdata = [
   },
   {
     id: 2,
-    img: "../imgs/menu/naturais.png",
+    img: "../public/imgs/menu/naturais.png",
     doador: "Lucas Lopes",
     validade: "20/11/2024",
     produto: "Hamburguer",
@@ -22,7 +22,7 @@ const mockdata = [
   },
   {
     id: 3,
-    img: "../imgs/menu/naturais.png",
+    img: "../public/imgs/menu/naturais.png",
     doador: "Lucas Lopes",
     validade: "20/11/2024",
     produto: "Hamburguer",
@@ -32,7 +32,7 @@ const mockdata = [
   },
   {
     id: 4,
-    img: "../imgs/menu/naturais.png",
+    img: "../public/imgs/menu/naturais.png",
     doador: "Lucas Lopes",
     validade: "20/11/2024",
     produto: "Hamburguer",
@@ -42,7 +42,7 @@ const mockdata = [
   },
   {
     id: 5,
-    img: "../imgs/menu/naturais.png",
+    img: "../public/imgs/menu/naturais.png",
     doador: "Lucas Lopes",
     validade: "20/11/2024",
     produto: "Hamburguer",
@@ -52,7 +52,7 @@ const mockdata = [
   },
   {
     id: 6,
-    img: "../imgs/menu/naturais.png",
+    img: "../public/imgs/menu/naturais.png",
     doador: "Lucas Lopes",
     validade: "20/11/2024",
     produto: "Hamburguer",
@@ -62,7 +62,7 @@ const mockdata = [
   },
   {
     id: 7,
-    img: "../imgs/menu/naturais.png",
+    img: "../public/imgs/menu/naturais.png",
     doador: "Lucas Lopes",
     validade: "20/11/2024",
     produto: "Hamburguer",
@@ -72,7 +72,7 @@ const mockdata = [
   },
   {
     id: 8,
-    img: "../imgs/menu/naturais.png",
+    img: "../public/imgs/menu/naturais.png",
     doador: "Lucas Lopes",
     validade: "20/11/2024",
     produto: "Hamburguer",
@@ -82,7 +82,7 @@ const mockdata = [
   },
   {
     id: 9,
-    img: "../imgs/menu/naturais.png",
+    img: "../public/imgs/menu/naturais.png",
     doador: "Lucas Lopes",
     validade: "20/11/2024",
     produto: "Hamburguer",
@@ -92,7 +92,7 @@ const mockdata = [
   },
   {
     id: 10,
-    img: "../imgs/menu/naturais.png",
+    img: "../public/imgs/menu/naturais.png",
     doador: "Lucas Lopes",
     validade: "20/11/2024",
     produto: "Hamburguer",
@@ -102,7 +102,7 @@ const mockdata = [
   },
   {
     id: 11,
-    img: "../imgs/menu/naturais.png",
+    img: "../public/imgs/menu/naturais.png",
     doador: "Lucas Lopes",
     validade: "20/11/2024",
     produto: "Hamburguer",
@@ -112,7 +112,7 @@ const mockdata = [
   },
   {
     id: 12,
-    img: "../imgs/menu/naturais.png",
+    img: "../public/imgs/menu/naturais.png",
     doador: "Lucas Lopes",
     validade: "20/11/2024",
     produto: "Hamburguer",
@@ -122,7 +122,7 @@ const mockdata = [
   },
   {
     id: 13,
-    img: "../imgs/menu/naturais.png",
+    img: "../public/imgs/menu/naturais.png",
     doador: "Lucas Lopes",
     validade: "20/11/2024",
     produto: "Hamburguer",
@@ -132,7 +132,7 @@ const mockdata = [
   },
   {
     id: 14,
-    img: "../imgs/menu/naturais.png",
+    img: "../public/imgs/menu/naturais.png",
     doador: "Lucas Lopes",
     validade: "20/11/2024",
     produto: "Hamburguer",
@@ -304,7 +304,7 @@ form.addEventListener("submit", (e) => {
     validade: form.validade.value,
     categoria: form.categoria.value,
     descricao: form.descricao.value,
-    img: "../imgs/img-placeholder.webp",
+    img: "../public/imgs/img-placeholder.webp",
     localizacao: form.localizacao.value,
     produto: form.produto.value,
     doador: form.doador.value,
