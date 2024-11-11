@@ -1,7 +1,7 @@
 function goBack() {
-  window.location.href = "../home/index.html";
+  window.location.href = "/home";
 }
 function redirect(event) {
   event.preventDefault();
-  window.location.href = "../catalog/index.html";
+  window.location.href = "/catalog";
 }

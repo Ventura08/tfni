@@ -21,12 +21,12 @@ function toggleRendaAnual() {
 }
 
 function goBack() {
-  window.location.href = "../login/index.html";
+  window.location.href = "/login";
 }
 
 function redirect(event) {
   event.preventDefault();
-  window.location.href = "../login/index.html";
+  window.location.href = "/login";
 }
 
 function validateNumber(input) {
