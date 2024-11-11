@@ -9,12 +9,12 @@
             "destination": "/register/index.html"
         },
         {
-            "source": "/catalog",
-            "destination": "/catalog/index.html"
-        },
-        {
             "source": "/validation",
             "destination": "/validation/index.html"
+        },
+        {
+            "source": "/catalog",
+            "destination": "/catalog/index.html"
         }
     ]
 }
