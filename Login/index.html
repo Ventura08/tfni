@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - The Future is Now</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="back-button">
+            <button onclick="goBack()">&#8592;</button>
+        </div>
+        <h1>Login</h1>
+        <form action="#">
+            <div class="input-group">
+                <input type="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="senha" placeholder="Senha" required>
+            </div>
+            <div class="options">
+                <a href="/Register/index.html">Não possui cadastro?</a>
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+            <button type="submit" class="btn-entrar" onclick="redirect(event)">Entrar</button>
+        </form>
+        <div class="divider">
+            <hr> <span>ou</span>
+            <hr>
+        </div>
+        <div class="social-login">
+            <a href="#"><img src="../imgs/Linkedin.png" alt="LinkedIn"></a>
+            <a href="#"><img src="../imgs/Google.png" alt="Google"></a>
+            <a href="#"><img src="../imgs/Facebook.png" alt="Facebook"></a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
